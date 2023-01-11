@@ -1,78 +1,164 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Hello React Front End
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
->
-> This is an application that will work as the Frontend along with another one which work is to be the Back End.
-## Built With
+Modify this file to match your project and remove sections that don't apply.
 
-- React
-- Redux
-- JavaScript
-- HTML
-- CSS
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-## Getting Started
+After you're finished please remove all the comments and instructions!
+-->
 
-If you want to clone this project:
-- Go to GitHub repository
-- Click on the green button that say 'Code'
-- Copy the SSH link
-- On your local machine, type the command git clone and paste the SSH link
 
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Hello Rails Back End <a name="about-project"></a>
+
+
+**Hello Rails Front End** is a simple front end for the Hello Rails Front End project. It is a simple application that will get connection with a Back end application.
+
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Ruby on Rails / Postresql
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">ruby on rails server</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- Create, Read, greetings in differente languages.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Media and Live Demo <a name="presentation"></a>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-- Code editor
-- Knowledge in HTML
-- Knowledge in CSS
-- Knowledge in JavaScript
-- Knowledge in React
-- Knowledge in Redux
-- Handle on local repository Git
 
+have installed Ruby on your system check with Ruby -v
+
+In order to run this project you need:
 
 ### Setup
-- Clone the repository
-- Change directory into the project folder
-- Install dependencies
-- Open project with text editor to view changes
-- Run the code using [live server](https://www.google.com/search?client=safari&rls=en&q=live+server&ie=UTF-8&oe=UTF-8)
+
+Clone this repository to your desired folder:
+
+> git clone git@github.com:robinbenitezmora/Hello-React-Front-End.git
 
 ### Install
-Clone this repository (you must have [Git Installed](https://github.com/git-guides/install-git))
 
-`git clone git@github.com:robinbenitezmora/Hello-React-Front-End.git`
+type : cd Hello-React-Front-End
 
-Then, move to the newly created folder `= Hello-React-Front-End` using this command
 
-`cd = Hello-React-Front-End`
+Type : bundle install
 
-Install all the dependencies using the following command
+Type : npm i
 
-`npm install`
+Then change the username and password within the database.yml and set yours.
 
-To open the project in Visual Studio Code type the following command inside the Hello-React-Front_End folder
+(In your terminal)
+Run:
 
-`code .`
+- rails db:create
+- rails db:migrate
+- rails s -p 3001
 
-In order to visualize the project in your browser either open the index.html file directly from the file explorer or consider using a [live server for development ](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+### Usage
 
-## Authors
+To run the project, execute the following command:
 
-👤 **Robin Benitez Mora**
+  rails server
+
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+
+
+👤 **Robin Benitez Mora **
 
 - GitHub: [@robinbenitezmora](https://github.com/robinbenitezmora)
 - Twitter: [@Mecanico_Robin](https://twitter.com/mecanico_robin)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/robin-benitez-mora-manizales)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/robin-benitez-mora/)
 
-## Show your support
 
-Give a ⭐️ if you like this project!
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
--I thank Microverse for its documentation, and my mentor.
 
-## 📝 License
+## Acknowlegments
+
+- Microverse
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

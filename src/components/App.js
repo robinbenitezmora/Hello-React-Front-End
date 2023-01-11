@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import store from '../redux/store';
 import Greeting from './Greeting';
 
-/*eslint-disable */
 function App() {
   return (
+    /*eslint-disable */
     <Provider store={store}>
       <Router>
         <Routes>
@@ -16,6 +16,5 @@ function App() {
     </Provider>
   );
 }
-/*eslint-disable */
 
 export default App;
